@@ -1,2 +1,2 @@
 language: rust
-script: cargo build --verbose --release && ./test.sh | ./target/release/checker
+script: cd checker && cargo build --verbose --release && cd .. && ./test.sh | ./target/release/checker

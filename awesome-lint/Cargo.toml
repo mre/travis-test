@@ -1,8 +1,9 @@
 [package]
-name = "checker"
+name = "awesome-lint"
 version = "0.1.0"
 authors = ["Matthias Endler <matthias.endler@trivago.com>"]
 
 [dependencies]
 regex = "0.1.80"
 reqwest = "0.1.0"
+pencil = "0.3.0"
